@@ -1,1 +1,138 @@
+# 🛡️ ThreatScope
 
+ThreatScope is a cybersecurity awareness simulator designed to help users learn defensive security concepts through interactive scenarios and dynamically generated question sets.
+
+The project combines:
+- 🎨 A modular frontend with reusable CSS and JavaScript services
+- 🧠 Dynamic cybersecurity question generation
+- 🔒 Safe, defensive-only educational content
+- ⚡ A lightweight backend API for fresh daily scenarios and caching
+
+---
+
+# ✨ Features
+
+- Dynamic cybersecurity awareness questions
+- Daily cached fallback system
+- Modular frontend architecture
+- Lightweight backend API
+- Defensive-only learning scenarios
+- Automatic build validation with GitHub Actions
+
+---
+
+# 🚀 Run Locally
+
+## 1. Install Dependencies
+
+```bash
+npm install
+```
+
+## 2. Start the Application
+
+```bash
+npm start
+```
+
+## 3. Open in Browser
+
+```text
+http://localhost:4173
+```
+
+---
+
+# 🧪 Development Checks
+
+This project uses GitHub Actions to automatically run validation checks whenever:
+
+- Code is pushed to `main`
+- A pull request targets `main`
+
+You can also run checks locally:
+
+```bash
+npm run build
+```
+
+The build process validates:
+- HTML structure
+- JavaScript syntax
+- Frontend module integrity
+- Backend server scripts
+
+---
+
+# 📁 Project Structure
+
+```text
+ThreatScope/
+│
+├── index.html
+├── CyberSecurityTutor2.html
+│
+├── css/
+│   └── Modular styling and UI themes
+│
+├── js/
+│   ├── questions/
+│   │   ├── Generator
+│   │   ├── Validator
+│   │   ├── Deduper
+│   │   ├── Cache
+│   │   └── Fallback question bank
+│   │
+│   ├── api/
+│   │   └── live-threat-client.js
+│   │
+│   └── features/
+│       └── legacy-app.js
+│
+└── server/
+    └── Backend API and defensive question generation
+```
+
+---
+
+# 🔐 Safety Boundary
+
+ThreatScope is strictly defensive and educational.
+
+The platform focuses on:
+- Cybersecurity awareness
+- Safe learning scenarios
+- Redacted pseudo examples
+- Prevention and analysis techniques
+
+It does **not** provide:
+- Real exploit payloads
+- Offensive attack instructions
+- Weaponized code
+- Reusable attack chains
+
+---
+
+# 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (ES Modules)
+- Node.js
+- GitHub Actions
+
+---
+
+# 📌 Notes
+
+If live question generation becomes unavailable, the application automatically falls back to:
+1. Same-day cached questions
+2. Safe static awareness scenarios
+
+This ensures the app remains functional offline or during API downtime.
+
+---
+
+# 📄 License
+
+This project is intended for educational and awareness purposes only.
